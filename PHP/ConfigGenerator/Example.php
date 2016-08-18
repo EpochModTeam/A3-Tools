@@ -1,9 +1,7 @@
 <?php 
-
 /*
 todo add descriptions
-/*
-
+*/
 require_once('GeneratorClass.php');
 
 // JSON import test
