@@ -6,7 +6,7 @@ class Arma
 {
     public $className;
     public $parentName;
-	public $isImport;
+    public $isImport;
 
     public function __construct($class, $parent, $isImport)
     {
@@ -155,3 +155,4 @@ class ArmaFactory
 		return new Arma($class, $parent,($parent == "na"));
     }
 }
+?>
