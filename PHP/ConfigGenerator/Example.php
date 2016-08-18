@@ -104,3 +104,5 @@ echo $import_json;
 
 // test PARSE JSON back to Arma config
 print_r($parent->print_class(json_decode($import_json)));
+
+?>
