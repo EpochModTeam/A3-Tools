@@ -3,6 +3,7 @@
 	PHP to Arma Config Generator
 	by Aaron Clark - http://epochmod.com
 */
+
 class Arma
 {
     public $className;
