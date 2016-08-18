@@ -1,3 +1,4 @@
+<?php
 /*
 	PHP to Arma Config Generator
 	by Aaron Clark - http://epochmod.com
@@ -12,7 +13,7 @@ class Arma
     {
         $this->className = $class;
         $this->parentName = $parent;
-		$this->isImport = $isImport;
+        $this->isImport = $isImport;
     }
 
 	private function r_implode( $glue, $pieces )
